@@ -2,7 +2,7 @@
   "name": "modal-lib",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/main.js",
+  "main": "./build/index.js",
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage",

@@ -1,7 +1,13 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 module.exports = {
-  entry: './src/index.tsx', // default is .src/index.js
+  // entry: './src/index.tsx', // default is .src/index.js
+  entry: './src/index.tsx',
+  output: {
+    path: path.resolve('build'),
+    filename: 'index.js',
+    libraryTarget: 'commonjs2'
+  },
   module: {
     rules: [
       {
@@ -41,7 +47,7 @@ module.exports = {
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js']
-  },
+  }
   // plugins: [
   //   new HtmlWebPackPlugin({
   //     template: './src/index.html',
