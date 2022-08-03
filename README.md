@@ -1,7 +1,12 @@
 # How can I add the package in my project?
 
 yarn add modal-case-lib@latest
+
 npm install modal-case-lib@latest
+
+# Modal package Link
+
+  [Link](https://www.npmjs.com/package/modal-case-lib)
 
 # How can I use the package features  in my project?(usage)
 
