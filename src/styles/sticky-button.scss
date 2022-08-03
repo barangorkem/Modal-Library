@@ -1,0 +1,15 @@
+
+
+.sticky-button {
+  position: fixed;
+  width: 100px;
+  height: 60px;
+  background-color: purple;
+  border: none;
+  cursor: pointer;
+
+  &.bottom-right{
+    right: 20px;
+    bottom: 20px;
+  } 
+}
